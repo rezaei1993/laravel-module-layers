@@ -1,0 +1,30 @@
+{
+    "name": "rezaei1993/laravel-module-layers",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Rezaei1993\\LaravelModuleLayers\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Rezaei1993\\LaravelModuleLayers\\Tests\\": "tests"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "\\Rezaei1993\\LaravelModuleLayers\\ModuleLayersServiceProvider"
+            ]
+        }
+    },
+    "require": {},
+    "authors": [
+        {
+            "name": "Danial Rezaei",
+            "email": "d.rezaei1993@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
